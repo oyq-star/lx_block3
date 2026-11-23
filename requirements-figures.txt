@@ -1,0 +1,4 @@
+# Direct figure dependencies observed in the Windows Python 3.8.5 environment.
+numpy==1.22.1
+matplotlib==3.3.2
+Pillow==8.0.1

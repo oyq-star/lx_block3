@@ -1,0 +1,23 @@
+Reference environment from the existing experiments (Windows x64)
+Python 3.8.5
+NumPy 1.22.1
+SciPy 1.7.3
+scikit-learn 0.23.2
+joblib 0.17.0
+psutil 5.9.6
+PyTorch 1.8.1+cu111 (CUDA build 11.1, RTX 3060 Laptop GPU 6 GB)
+
+These are observed versions, not a lockfile. Use the original compatible
+environment to load the frozen joblib and PyTorch artifacts.
+
+Figure dependencies: see ../requirements-figures.txt.
+Optional PDF inspection environment: Python 3.11.9, PyMuPDF 1.28.0, Pillow 12.2.0.
+Manuscript: latexmk, pdfLaTeX, BibTeX, and Springer llncs/splncs04.
+Raw dump preparation: PostgreSQL client pg_restore.exe, not a running server.
+
+External component revisions used in the workspace:
+PIDSMaker: 15e5515c3dbc984d908afe2a00554b50f1d56c1d
+Pro-Trap: e681a539de536a9234173b0feae197ebac70172a
+
+Raw logs, third-party source, event caches, and fitted checkpoints are supplied
+separately from the compact code bundle.
